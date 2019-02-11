@@ -1,10 +1,15 @@
 <project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.maxo</groupId>
-  <artifactId>maxotech</artifactId>
-  <packaging>jar</packaging>
-  <version>1.${BUILD_NUMBER}</version>
-
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gov.cms.hets</groupId>
+	<artifactId>parent</artifactId>
+	<version>2019.100.13-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<organization>
+		<name>GDIT</name>
+		<url>http://www.GDIT.com</url>
+	</organization>
+	<description>Master Maven Build Scripts</description
   <properties>
     <maven.compiler.source>7</maven.compiler.source>
     <maven.compiler.target>7</maven.compiler.target>
